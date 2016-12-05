@@ -1,0 +1,697 @@
+/*移动客户端*/
+@media screen and (max-width:775px ) {
+	nav{
+		width: 100%;
+		height: 40px;
+		background-color: #000;
+		transition: all 0.5s ease;
+	}
+	nav *{
+		transition: all 0.5s ease;
+	}
+	nav .big-logo{
+		display: block;
+		width: 80px;
+		height: 20px;
+		font-size: 22px;
+		margin: 7px auto;
+	}
+	nav .big-logo a{
+		color: #fff;
+	}
+	nav .item-btn{
+		float: left;
+		margin: 5px;
+		width: 30px;
+		height: 30px;
+		background-image: url(../img/item_btn.png);
+	}
+	nav .login-resign .resign{
+		display: none;
+	}
+	nav .login-resign{
+		float: right;
+		width: 30px;
+		height: 20px;
+		margin:10px 5px;;
+	}
+	nav .login-resign a{
+		color: #fff;
+		font-size: 14px;
+	}
+	nav ul li{
+		width: 90%;
+		margin: 0 auto;
+		height: 18px;
+		padding: 7px 25px 10px;
+		border-bottom: 1px solid #eee;
+	}
+	nav ul{
+		transition: 0.5s ease all;
+		clear: both;
+		/*display: none;*/
+		width: 100%;
+		background-color: #fff;
+		position: absolute;
+		top: -300px;
+		left: 0;
+	}
+	/*图片播放器*/
+	.sliderImg{
+		display: none;
+	}
+	/*ZEALER生活*/
+	#hardwaretest{
+		display: none;
+	}
+	#thingaboutzealer{
+		display: none;
+	}
+	.zealer-produce{
+		width: 96%;
+		height: 610px;
+		max-height: 610px;
+		min-width: 710px;
+		min-height: 430px;
+		margin: 40px auto 10px;
+	}
+	.zealer-produce .zealer-produce-title{
+		height: 30px;
+		width: 100%;
+		float: left;
+	}
+	.zealer-produce .zealer-produce-title .zealer-big-logo{
+		width: 125px;
+		height: 30px;
+		font-size: 22px;
+		float: left;
+		padding: 5px 0;
+	}
+	.zealer-produce .zealer-produce-title .zealer-big-logo a{
+		color: #444;
+	}
+	.zealer-produce .zealer-produce-title .zealer-produce-title-nav-bar{
+		width: 500px;
+		height: 30px;
+		float: left;
+		padding: 12px 0 0;
+	}
+	.zealer-produce-title-nav-bar li{
+		float: left;
+		padding: 0 5px;
+	}
+	.zealer-produce-title-nav-bar li a{
+		font-size: 14px;
+		color: #444;
+	}
+	.zealer-produce-wrapper{
+		width: 100%;
+		height: auto;
+		float: left;
+	}
+	.zealer-produce-wrapper-box{
+		padding: 1% 0;
+		height: 48%;
+		width: 100%;
+	}
+	.zealer-produce-wrapper-box div{
+		height: 100%;
+		width: 32%;
+		text-align: center;
+	}
+	.zealer-produce-wrapper-box div a img{
+		width: 100%;
+	}
+	.zealer-produce-wrapper-box div a {
+		color: #444;
+	}
+	.zealer-produce .zealer-produce-animation-left{
+		position: absolute;
+		top: 45%;
+		left: 0;
+		color: transparent;
+		transition: 0.5s ease all; 
+	}
+	.zealer-produce .zealer-produce-animation-right{
+		position: absolute;
+		top: 45%;
+		right: 0;
+		color: transparent;
+		transition: 0.5s ease all; 
+	}
+	.zealer-produce .zealer-produce-animation-middle{
+		position: absolute;
+		bottom: 20%;
+		left: 50%;
+		width: 40px;
+		height: 20px;
+		font-size: 18px;
+		text-align: center;
+		margin-left: -20px;
+		color: transparent;
+		transition: 0.5s ease all; 
+	}
+	.zealer-produce-animation-base{
+		transition: 0.5s ease all; 
+	}
+	.zealer-produce-animation-base a{
+		font-size: 14px;
+	}
+	.zealer-produce-animation-base:hover  .zealer-produce-animation-left{
+	 	transform: translateX(50%);
+	 	color: #FFFFFF;
+	}
+	.zealer-produce-animation-base:hover  .zealer-produce-animation-right{
+	 	transform: translateX(-50%);
+	 	color: #FFFFFF;
+	}
+	.zealer-produce-animation-base:hover  .zealer-produce-animation-middle{
+	 	transform: translateY(-280%);
+	 	color: #FFFFFF;
+	}
+	.zealer-produce-wrapper-box-left{
+		float: left;
+		position: relative;
+	}
+	.zealer-produce-wrapper-box-right{
+		float: right;
+		position: relative;
+	}
+	.zealer-produce-wrapper-box-middle{
+		margin: 0 auto;
+		position: relative;
+	}
+	/*精彩推荐&全民评测*/
+	.recommend-test{
+		width: 96%;
+		height: 370px;
+		min-width: 710px;
+		max-height: 370px;
+		min-height: 300px;
+		margin: 10px auto;
+	}
+	.recommend{
+		width: 49%;
+		float: left;
+	}
+	.recommend a{
+		display: block;
+		color: #444;
+	}
+	.recommend-title{
+		height: 30px;
+		width: 100%;
+	}
+	.recommend-title .recommend-title-logo{
+		float: left;
+		width: 90px;
+		height: 30px;
+		font-size: 22px;
+	}
+	.recommend .recommend-wrapper{
+		width: 100%;
+		height: auto;
+		margin: 10px 0;
+	}
+	.recommend .recommend-img-area{
+		position: relative;
+	}
+	.recommend-img-area img{
+		width: 100%;
+	}
+	.recommend .recommend-wrapper .recommend-img .recommend-img-title{
+		display: block;
+		position: absolute;
+		bottom: 10px;
+		left: 5px;		
+		width: 100%;
+		height: 16px;
+		color: #FFFFFF;
+		font-weight: bold;
+	}
+	.recommend .recommend-list ul,.test .test-list ul{
+		display: block;
+		margin: 5px 0;
+		width: 100%;
+		height: auto;
+		list-style: inside disc;
+	}
+	.recommend .recommend-list li{
+		margin: 10px 0;
+	}
+	.recommend .recommend-list li span{
+		float: right;
+	}
+	/*TEST*/
+	.test{
+		width: 49%;
+		float: right;
+	}
+	.test a{
+		display: block;
+		color: #444;
+	}
+	.test-title{
+		height: 30px;
+		width: 100%;
+	}
+	.test-title .test-title-logo{
+		float: left;
+		width: 90px;
+		height: 30px;
+		font-size: 22px;
+	}
+	.test .test-wrapper{
+		width: 100%;
+		margin: 10px 0;
+		height: auto;
+	}
+	.test .test-img-area{
+		position: relative;
+	}
+	.test-img-area img{
+		width: 100%;
+	}
+	.test .test-list ul{
+		display: block;
+		width: 100%;
+		height: auto;
+		margin: 5px 0;
+	}
+	.test .test-list li{
+		margin: 10px 0;
+	}
+	.test .test-list li span{
+		float: right;
+	}
+	.test .test-wrapper .test-img .test-img-title{
+		display: block;
+		position: absolute;
+		bottom: 10px;
+		left: 5px;		
+		width: 100%;
+		height: 16px;
+		color: #FFFFFF;
+		font-weight: bold;
+	}
+	/*Z友生活*/
+	.zealer-life{
+		width: 96%;
+		height: 150px;
+		min-width: 710px;
+		min-height: 141px;
+		margin: 10px auto;
+	}
+	.zealer-life .zealer-life-big-logo a,.zealer-life .zealer-life-nav-bar a{
+		color: #444;
+	}
+	.zealer-life-title{
+		width: 100%;
+		height: 30px;
+	}	
+	.zealer-life-title .zealer-life-big-logo{
+		width: 80px;
+		font-size: 22px;
+		float: left;
+	}
+	.zealer-life-title .zealer-life-nav-bar{
+		float: left;
+		width: 400px;
+		height: 24px;
+		padding-top: 8px;
+		margin-left: 5px;
+	}
+	.zealer-life-title .zealer-life-nav-bar ul li{
+		float: left;
+		margin: 0 5px;
+		font-size: 14px;
+	}
+	.zealer-life .zealer-life-wrapper{
+		width: 100%;
+		padding: 1% 0;
+		height: auto;
+	}
+	.zealer-life .zealer-life-wrapper-left{
+		width: 49%;
+		float: left;
+	}
+	.zealer-life .zealer-life-wrapper-right{
+		width: 49%;
+		float: right;
+	}
+	.zealer-life-wrapper div div a img{
+		width: 100%;
+	}
+	.zealer-life-wrapper-left1{
+		width: 49%;
+		float: left;
+	}
+	.zealer-life-wrapper-left2{
+		width: 49%;
+		float: right;
+	}
+	.zealer-life-wrapper-right1{
+		width: 49%;
+		float: left;
+	}
+	.zealer-life-wrapper-right2{
+		width: 49%;
+		float: right;
+	}
+	
+	
+	/*SECONDHAND&FIX*/
+	.secondhand-fix{
+		width: 96%;
+		height:510px;
+		max-width: 1100px;
+		min-width: 710px;
+		min-height: 510px;
+		margin: 10px auto;
+		background-color: #fafafa;
+	}
+	.secondhand-fix a{
+		color: #444;
+		display: block;
+	}
+	.secondhand{
+		width: 96%;
+		height: 100%;
+		float: left;
+	}
+	.secondhand-title{
+		width: 100%;
+		height: 30px;
+	}
+	.secondhand-title .secondhand-title-big-logo{
+		float: left;
+		height: 30px;
+		width: 90px;
+		font-size: 22px;
+	}
+	.secondhand-title .secondhand-title-nav-bar{
+		width: 90px;
+		height: 30px;
+		float: left;
+		margin-left: 5px;
+	}
+	.secondhand-title .secondhand-title-nav-bar a{
+		margin-top: 8px;
+	}
+	.secondhand-title .secondhand-title-nav-bar ul li{
+		float: left;
+		margin: 0 5px;
+		font-size: 14px;
+	}
+	.secondhand .secondhand-wrapper{
+		width: 100%;
+		height: 94.12%;
+	}
+	.secondhand .secondhand-wrapper .secondhand-wrapper1,.secondhand .secondhand-wrapper .secondhand-wrapper2{
+		width: 100%;
+		height: 49%;
+	}
+	.secondhand .secondhand-wrapper div div a{
+		width: 100%;
+		height: 100%;
+	}
+	.secondhand .secondhand-wrapper div div a img{
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+	}
+	.secondhand .secondhand-wrapper .secondhand-wrapper1-left{
+		float: left;
+		width: 49%;
+		height: 100%;
+	}
+	.secondhand .secondhand-wrapper .secondhand-wrapper1-right{
+		float: right;
+		width: 49%;
+		height: 100%;
+	}
+	.secondhand .secondhand-wrapper .secondhand-wrapper2{
+		margin-top: 1.5%;
+	}
+	.secondhand .secondhand-wrapper .secondhand-wrapper2-left{
+		float: left;
+		width: 49%;
+		height: 100%;
+	}
+	.secondhand .secondhand-wrapper .secondhand-wrapper2-right{
+		float: right;
+		width: 49%;
+		height: 100%;
+	}
+	.fix{
+		display: none;
+	}
+	
+	/*评测工具*/
+	.testtools{
+		width: 96%;
+		height:620px;
+		min-width: 710px;
+		min-height: 550px;
+		margin: 10px auto;
+	}
+	.testtools a{
+		text-align: center;
+	}
+	.testtools .phoneImg{
+		width: 80%;
+		height: 80%;
+		margin: 0 auto;
+		max-height: 85%;
+	}
+	.testtools .testtools-wrapper .testtools-wrapper-phoneImg img{
+		width: 80%;
+		height: 80%;
+		max-width: 260px;
+	}
+	.testtools .testtools-title{
+		width: 100%;
+		height: 30px;
+	}
+	.testtools .testtools-title .test-title-big-logo{
+		width: 100px;
+		height: 30px;
+		font-size: 22px;
+		float: left;
+	}
+	.testtools .testtools-wrapper{
+		width: 100%;
+		height: 91%;
+		margin: 2% 0;
+	}
+	.testtools .testtools-wrapper .testtools-wrapper-phoneImg{
+		width: 100%;
+		height: 100%;
+		float: left;
+	}
+	.testtools .testtools-wrapper .testtools-wrapper-phoneImg .testtools-wrapper-phoneImg-phone1,
+	.testtools .testtools-wrapper .testtools-wrapper-phoneImg .testtools-wrapper-phoneImg-phone2,
+	.testtools .testtools-wrapper .testtools-wrapper-phoneImg .testtools-wrapper-phoneImg-phone3,
+	.testtools .testtools-wrapper .testtools-wrapper-phoneImg .testtools-wrapper-phoneImg-phone4{
+		border: 1px solid #DDDDDD;
+	}
+	.testtools .testtools-wrapper .testtools-wrapper-phoneImg1,
+	.testtools .testtools-wrapper .testtools-wrapper-phoneImg2{
+		width: 100%;
+		height: 48%;
+	}
+	.testtools .testtools-wrapper .testtools-wrapper-phoneImg2{
+		margin-top: 2%;
+	}
+	.testtools .testtools-wrapper .testtools-wrapper-phoneImg1 .testtools-wrapper-phoneImg-phone1,.testtools .testtools-wrapper  .testtools-wrapper-phoneImg-phone3
+	{
+		width: 49%;
+		
+		height: 100%;
+		float: left;
+	}
+	.testtools .testtools-wrapper .testtools-wrapper-phoneImg1 .testtools-wrapper-phoneImg-phone2,.testtools .testtools-wrapper  .testtools-wrapper-phoneImg-phone4
+	{
+		width: 49%;
+		height: 100%;
+		float: right;
+	}
+	.testtools .testtools-selectmodel{
+		display: none;
+	}
+	
+	/*实验室*/
+	.lab{
+		width: 96%;
+		height:620px;
+		min-width: 710px;
+		min-height: 440px;
+		margin: 10px auto;
+	}
+	.lab .lab-title{
+		width: 100%;
+		height: 30px;
+	}
+	.lab .lab-title-biglogo{
+		width: 70px;
+		font-size: 22px;
+		height: 30px;
+		float: left;
+	}
+	.lab .lab-title-nav-bar{
+		width: 300px;
+		height: 30px;
+		float: left;
+	}
+	.lab .lab-title-nav-bar ul li{
+		float: left;
+		margin: 0 5px;
+		font-size: 14px;
+		height: 19px;
+		padding-top: 8px;
+	}
+	.lab .lab-wrapper{
+		width: 100%;
+		height: 93.94%;
+	}
+	.lab .lab-wrapper .lab-wrapper1,.lab .lab-wrapper .lab-wrapper2{
+		width: 100%;
+		height: 49%;
+	}
+	.lab .lab-wrapper .lab-wrapper1 .lab-wrapper1-left,.lab .lab-wrapper .lab-wrapper2 .lab-wrapper2-left{
+		width: 49%;
+		height: 100%;
+		float: left;
+	}
+	.lab .lab-wrapper .lab-wrapper1 .lab-wrapper1-right,.lab .lab-wrapper .lab-wrapper2 .lab-wrapper2-right{
+		width: 49%;
+		height: 100%;
+		float: right;
+	}
+	.lab a{
+		width: 100%;
+		text-align: center;
+	}
+	.lab img{
+		width: 100%;
+	}
+	.lab-animation-base{
+		position: relative;
+	}
+	.lab-animation-base:hover .lab-animation-left{
+		transform: translateX(300%);
+	 	color: #FFFFFF;
+	}
+	
+	.lab-animation-base:hover .lab-animation-right{
+		transform: translateX(-300%);
+	 	color: #FFFFFF;
+	}
+	.lab-animation-base:hover .lab-animation-middle{
+		transform: translateY(-350%);
+	 	color: #FFFFFF;
+	}
+	.lab-animation-left{
+		position: absolute;
+		top: 40%;
+		left: 10%;
+		color: transparent;
+		transition: 0.5s ease all; 
+	}
+	.lab-animation-right{
+		position: absolute;
+		top: 40%;
+		color: transparent;
+		right: 10%;
+		transition: 0.5s ease all; 
+	}
+	.lab-animation-middle{
+		position: absolute;
+		bottom: 30%;
+		left: 50%;
+		width: 40px;
+		height: 20px;
+		font-size: 18px;
+		text-align: center;
+		margin-left: -20px;
+		color: transparent;
+		transition: 0.5s ease all; 
+	}
+	/*FOOT-ITEM*/
+	.foot-item{
+		width: 96%;
+		height:165px;
+		max-width: 1100px;
+		min-width: 710px;
+		max-height: 165px;
+		min-height: 130px;
+		margin: 10px auto;
+		padding-bottom: 1%;
+		border-bottom: 2px #eee solid;
+	}
+	.foot-item .foot-item-box{
+		width: 20%;
+		height: auto;
+		float: left;
+	}
+	.foot-item .foot-item-box{
+		text-align: left;
+	}
+	.foot-item .foot-item-box .foot-item-title{
+		width: 100%;
+		height: 40px;
+		font-size: 20px;
+		padding-left: 20%;
+	}
+	.foot-item .foot-item-box ul li {
+		margin: 5.5% 0;
+		padding-left: 20%;
+	}
+	/*友情链接*/
+	.friend-link{
+		width: 100%;
+		height:90px;
+		max-width: 1100px;
+		min-width: 710px;
+		max-height: 120px;
+		margin: 10px auto;
+		padding-bottom: 50px;
+		border-bottom: 2px #eee solid;
+	}
+	.friend-link a{
+		display: inline-block;
+		text-align: center;
+		width: 97px;
+		height: 21px;
+		margin: 1% 0;
+	}
+	.friend-link .friend-link-wrapper{
+		width: 100%;
+		height: auto;
+	}
+	.friend-link .friend-link-left{
+		width: 12%;
+		height: auto;
+		float: left;
+	}
+	.friend-link .friend-link-right{
+		width: 88%;
+		float: right;
+	}
+	.friend-link .friend-link-right a{
+		height: auto%;	
+		text-align: left;
+	}
+	/*COPYRIGHT*/
+	.copyright{
+		width: 100%;
+		height:30px;
+		max-width: 1100px;
+		min-width: 710px;
+		margin: 10px auto;
+	}
+	.copyright-wrapper{
+		width: 600px;
+		margin: 0 auto;
+	}
+}
